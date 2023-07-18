@@ -9,8 +9,12 @@ public class UseBooks {
 
     if(book1.equals( book1_copy ) ) {
       System.out.println("They are the same book");
+      System.out.println(book1.hashCode());
+      System.out.println(book1_copy.hashCode());
     } else {
       System.out.println("They are not the same book");
+      System.out.println(book1.hashCode());
+      System.out.println(book1_copy.hashCode());
     }
   }
 }
